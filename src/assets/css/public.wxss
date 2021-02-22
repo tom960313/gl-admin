@@ -1,0 +1,165 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #fff;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px #ccc;
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px #bbb;
+  background: #bbb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+#app {
+  height: 100%;
+}
+
+.h_100 {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-warp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-x-y-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-x-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-y-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.font-w-bolder {
+  font-weight: bolder;
+}
+
+.font-w-normal {
+  font-weight: normal;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-color-333 {
+  color: #333;
+}
+
+.font-color-27 {
+  color: #272727;
+}
+
+.font-color-fff {
+  color: #fff;
+}
+
+.font-color-999 {
+  color: #999;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
